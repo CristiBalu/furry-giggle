@@ -1,1 +1,1 @@
-web: gunicorn fgiggle.wsgi
+web: gunicorn ./fgiggle/fgiggle/fgiggle.wsgi
