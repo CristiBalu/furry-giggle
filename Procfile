@@ -1,1 +1,1 @@
-web: gunicorn .fgiggle.fgiggle:fgiggle.wsgi
+web: gunicorn --pythonpath fgiggle fgiggle.wsgi
